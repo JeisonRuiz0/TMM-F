@@ -5,16 +5,19 @@ import Work from "../Components/Work";
 import Testimonial from "../Components/Testimonial";
 import Contact from "../Components/Contact";
 import Footer from "../Components/Footer";
+import Navbar from "../Components/Navbar";
+import AboutRight from "../Components/AboutRight";
 
 const HomeSection = () => {
     return (
         <div>
+            <Navbar />
             <Home />
             <About />
             <Work />
-            <Testimonial />
-            <Contact />
+            <AboutRight />
             <Footer />
+           
         </div>
     )
 }
