@@ -5,12 +5,16 @@ import Work from "../Components/Work";
 import Testimonial from "../Components/Testimonial";
 import Contact from "../Components/Contact";
 import Footer from "../Components/Footer";
+import Navbar from "../Components/Navbar";
+import AboutProfile from "../Components/ProfileComponents/AboutProfile";
+import Formation from "../Components/ProfileComponents/Formation";
 
 const CandidateProfile = () => {
     return (
         <div>
-            <Home />
-            <About />
+            <Navbar />
+            <AboutProfile />
+            <Formation />
             <Work />
             <Testimonial />
             <Contact />

@@ -1,0 +1,33 @@
+.aboutProfile-section-container {
+    margin-top: 5rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .aboutProfile-background-image-container {
+    position: absolute;
+    left: 0px;
+    top: -200px;
+    width: 750px;
+    z-index: -2;
+  }
+  .aboutProfile-section-image-container {
+    flex: 0.9;
+    margin-right: 1rem;
+  }
+  .aboutProfile-section-text-container {
+    flex: 1;
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+  }
+  .aboutProfile-buttons-container {
+    margin-top: 2rem;
+    display: flex;
+    padding-left: 20rem;
+  }
+
+  .profile-text h1, p, button{
+    text-align: right;
+  }

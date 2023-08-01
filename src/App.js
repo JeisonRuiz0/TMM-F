@@ -1,17 +1,16 @@
 import "./App.css";
-import Home from "./Components/Home";
-import About from "./Components/About";
-import Work from "./Components/Work";
-import Testimonial from "./Components/Testimonial";
-import Contact from "./Components/Contact";
-import Footer from "./Components/Footer";
 import HomeSection from "./Sections/HomeSection";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import CandidateProfile from "./Sections/CandidateProfile";
 
 function App() {
   return (
-    <div className="App">
-      <HomeSection />
-    </div>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element= {<HomeSection/>}></Route>
+          <Route path="/perfil" element={<CandidateProfile/>}></Route>
+        </Routes>
+      </BrowserRouter>
   );
 }
 

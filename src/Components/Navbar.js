@@ -47,8 +47,8 @@ const Navbar = () => {
         <img src={Logo} alt="" />
       </div>
       <div className="navbar-links-container">
-        <a href="">Inicio</a>
-        <a href="">Perfil del candidato</a>
+        <a href="/">Inicio</a>
+        <a href="/perfil">Perfil del candidato</a>
         <a href="">Plan de Gobierno</a>
         <button className="primary-button">Tu aporte</button>
       </div>
