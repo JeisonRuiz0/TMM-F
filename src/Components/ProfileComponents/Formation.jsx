@@ -11,7 +11,9 @@ const Formation = () => {
       </div>
 
       <div className="formation-container__timeLine">
-        <Timeline >
+      
+
+        <Timeline className="timeline-formation" >
           <TimelineItem >
             <TimelineSeparator>
               <TimelineDot />
@@ -47,6 +49,7 @@ const Formation = () => {
             <TimelineContent><p className="primary-text">Magister en Derecho de Estado, Gobierno y Desarrollo de Entidades territoriales de la Universidad Externado de Colombia.</p> </TimelineContent>
           </TimelineItem>
         </Timeline>
+      
       </div>
 
 

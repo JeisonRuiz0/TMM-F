@@ -21,10 +21,10 @@
 
 .aboutRight-image-section {
   position: absolute;
-  max-width: 700px;
+  max-width: 600px;
   z-index: -2;
   flex: 1;
-  right: 170px;
+  right: -50px;
   top: 100px;
 }
 

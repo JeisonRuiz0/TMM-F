@@ -9,7 +9,8 @@
     position: absolute;
     left: 0px;
     top: -200px;
-    width: 750px;
+    left: -100px;
+    width: 600px;
     z-index: -2;
   }
   .aboutProfile-section-image-container {

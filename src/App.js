@@ -5,12 +5,15 @@ import CandidateProfile from "./Sections/CandidateProfile";
 
 function App() {
   return (
+    <div className="App">
       <BrowserRouter>
         <Routes>
           <Route path="/" element= {<HomeSection/>}></Route>
           <Route path="/perfil" element={<CandidateProfile/>}></Route>
         </Routes>
       </BrowserRouter>
+    </div>
+      
   );
 }
 
