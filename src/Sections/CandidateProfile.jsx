@@ -7,7 +7,10 @@ import Contact from "../Components/Contact";
 import Footer from "../Components/Footer";
 import Navbar from "../Components/Navbar";
 import AboutProfile from "../Components/ProfileComponents/AboutProfile";
+import WorkProfile from "../Components/ProfileComponents/WorkProfile";
+import TestimonialProfile from "../Components/ProfileComponents/TestimonialProfile";
 import Formation from "../Components/ProfileComponents/Formation";
+import ContactProfile from "../Components/ProfileComponents/ContactProfile";
 
 const CandidateProfile = () => {
     return (
@@ -15,9 +18,9 @@ const CandidateProfile = () => {
             <Navbar />
             <AboutProfile />
             <Formation />
-            <Work />
-            <Testimonial />
-            <Contact />
+            <WorkProfile />
+            <TestimonialProfile />
+            <ContactProfile />
             <Footer />
         </div>
     )

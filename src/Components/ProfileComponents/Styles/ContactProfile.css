@@ -1,14 +1,14 @@
-.contact-page-wrapper h1 {
+.contactProfile-page-wrapper h1 {
     max-width: 900px !important;
   }
-  .contact-page-wrapper {
+  .contactProfile-page-wrapper {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     margin: 6rem 0rem;
   }
-  .contact-form-container {
+  .contactProfile-form-container {
     background-color: white;
     max-width: 700px;
     width: 100%;
@@ -18,7 +18,7 @@
     padding: 1rem;
     border-radius: 5rem;
   }
-  .contact-form-container input {
+  .contactProfile-form-container input {
     flex: 1;
     height: 100%;
     border: none;
