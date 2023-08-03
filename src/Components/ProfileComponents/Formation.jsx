@@ -6,7 +6,7 @@ const Formation = () => {
   return (
     <div className="formation-container">
       <div className="formation-container__text">
-        <h1 className="primary-tittle"> Formacion academica</h1>
+        <h1 className="primary-title"> Formacion academica</h1>
         <p className="primary-text"> Me he formado como:</p>
       </div>
 

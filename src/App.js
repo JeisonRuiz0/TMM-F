@@ -2,6 +2,7 @@ import "./App.css";
 import HomeSection from "./Sections/HomeSection";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import CandidateProfile from "./Sections/CandidateProfile";
+import FormSection from "./Sections/FormSection";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <Routes>
           <Route path="/" element= {<HomeSection/>}></Route>
           <Route path="/perfil" element={<CandidateProfile/>}></Route>
+          <Route path="/aporte" element={<FormSection/>}></Route>
         </Routes>
       </BrowserRouter>
     </div>

@@ -50,7 +50,10 @@ const Navbar = () => {
         <a href="/">Inicio</a>
         <a href="/perfil">Perfil del candidato</a>
         <a href="">Plan de Gobierno</a>
-        <button className="primary-button">Tu aporte</button>
+        <a href="/aporte">
+          <button className="primary-button">Tu aporte</button>
+        </a>
+        
       </div>
       <div className="navbar-menu-container">
         <HiOutlineBars3 onClick={() => setOpenMenu(true)} />
