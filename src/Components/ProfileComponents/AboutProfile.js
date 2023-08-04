@@ -15,7 +15,7 @@ const AboutProfile = () => {
          {/*<img src={AboutBackgroundImage} alt="" />*/}
       </div>
      
-      <div className="aboutProfile-section-text-container profile-text">
+      <div className="aboutProfile-section-text-container profile">
         <h1 className="primary-heading">
           con Cesar Lopez Tunja Gana
         </h1>

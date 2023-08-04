@@ -21,25 +21,25 @@ const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
   const menuOptions = [
     {
-      text: "Home",
+      text: "Inicio",
       icon: <HomeIcon />,
+      url: "/perfil"
     },
     {
-      text: "About",
+      text: "Perfil del candidato",
       icon: <InfoIcon />,
+      url: "/perfil"
     },
     {
-      text: "Testimonials",
+      text: "Plan de gobierno",
       icon: <CommentRoundedIcon />,
+      url: "/perfil"
     },
     {
-      text: "Contact",
+      text: "Tu aporte",
       icon: <PhoneRoundedIcon />,
-    },
-    {
-      text: "Cart",
-      icon: <ShoppingCartRoundedIcon />,
-    },
+      url: "/perfil"
+    }
   ];
   return (
     <nav>
@@ -68,7 +68,7 @@ const Navbar = () => {
           <List>
             {menuOptions.map((item) => (
               <ListItem key={item.text} disablePadding>
-                <ListItemButton>
+                <ListItemButton href= {item.url}>
                   <ListItemIcon>{item.icon}</ListItemIcon>
                   <ListItemText primary={item.text} />
                 </ListItemButton>

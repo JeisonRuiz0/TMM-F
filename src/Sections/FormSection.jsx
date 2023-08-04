@@ -12,6 +12,8 @@ import {
 import Navbar from '../Components/Navbar';
 import "./Styles/FormSection.css";
 import Footer from '../Components/Footer';
+import BannerProfile from "../Assets/BannerProfile.png";
+import { BorderColor } from '@mui/icons-material';
 
 const FormSection = () => {
     const [nombre, setNombre] = useState('');
@@ -53,6 +55,9 @@ const FormSection = () => {
 
     return (
         <div className='formSection-container'>
+            <div className="aboutProfile-background-image-container">
+                <img src={BannerProfile} alt="" />
+            </div>
             <Navbar />
             <div className='formSection-container_form'>
                 <h1 className='primary-title'> TE INVITAMOS A APORTAR EN EL DESARROLLO DE NUESTRA TUNJA QUE MERECE MÁS!</h1>
@@ -65,8 +70,6 @@ const FormSection = () => {
                                     elevation={0}
                                     sx={{
                                         padding: '8px',
-                                        borderRadius: '8px',
-                                        background: '#f2f2f2',
                                     }}
                                 >
                                     <label>Nombre</label>
@@ -75,6 +78,18 @@ const FormSection = () => {
                                         required
                                         value={nombre}
                                         onChange={(e) => setNombre(e.target.value)}
+                                        sx={{
+                                            borderRadius: '15px',
+                                            backgroundColor: '#F2F3F4',
+                                            '& .MuiOutlinedInput-root': {
+                                                '& fieldset': {
+                                                    borderColor: 'transparent',
+                                                },
+                                            },
+                                            '& .MuiInputBase-input': {
+                                                color: '#9A9796',
+                                            },
+                                        }}
                                     />
                                 </Paper>
                             </Grid>
@@ -85,7 +100,6 @@ const FormSection = () => {
                                         display: 'flex',
                                         padding: '8px',
                                         borderRadius: '8px',
-                                        background: '#f2f2f2',
                                     }}
                                 >
                                     <div style={{ marginRight: '8px' }}>
@@ -95,6 +109,18 @@ const FormSection = () => {
                                             required
                                             value={direccion}
                                             onChange={(e) => setDireccion(e.target.value)}
+                                            sx={{
+                                                borderRadius: '15px',
+                                                backgroundColor: '#F2F3F4',
+                                                '& .MuiOutlinedInput-root': {
+                                                    '& fieldset': {
+                                                        borderColor: 'transparent',
+                                                    },
+                                                },
+                                                '& .MuiInputBase-input': {
+                                                    color: '#9A9796',
+                                                },
+                                            }}
                                         />
                                     </div>
                                     <div>
@@ -104,6 +130,18 @@ const FormSection = () => {
                                             required
                                             value={barrio}
                                             onChange={(e) => setBarrio(e.target.value)}
+                                            sx={{
+                                                borderRadius: '15px',
+                                                backgroundColor: '#F2F3F4',
+                                                '& .MuiOutlinedInput-root': {
+                                                    '& fieldset': {
+                                                        borderColor: 'transparent',
+                                                    },
+                                                },
+                                                '& .MuiInputBase-input': {
+                                                    color: '#9A9796',
+                                                },
+                                            }}
                                         />
                                     </div>
                                 </Paper>
@@ -114,7 +152,6 @@ const FormSection = () => {
                                     sx={{
                                         padding: '8px',
                                         borderRadius: '8px',
-                                        background: '#f2f2f2',
                                     }}
                                 >
                                     <label>Correo Electrónico</label>
@@ -123,6 +160,18 @@ const FormSection = () => {
                                         required
                                         value={correo}
                                         onChange={(e) => setCorreo(e.target.value)}
+                                        sx={{
+                                            borderRadius: '15px',
+                                            backgroundColor: '#F2F3F4',
+                                            '& .MuiOutlinedInput-root': {
+                                                '& fieldset': {
+                                                    borderColor: 'transparent',
+                                                },
+                                            },
+                                            '& .MuiInputBase-input': {
+                                                color: '#9A9796',
+                                            },
+                                        }}
                                     />
                                 </Paper>
                             </Grid>
@@ -133,7 +182,6 @@ const FormSection = () => {
                                         display: 'flex',
                                         padding: '8px',
                                         borderRadius: '8px',
-                                        background: '#f2f2f2',
                                     }}
                                 >
                                     <div style={{ marginRight: '8px' }}>
@@ -143,6 +191,18 @@ const FormSection = () => {
                                             required
                                             value={telefono}
                                             onChange={(e) => setTelefono(e.target.value)}
+                                            sx={{
+                                                borderRadius: '15px',
+                                                backgroundColor: '#F2F3F4',
+                                                '& .MuiOutlinedInput-root': {
+                                                    '& fieldset': {
+                                                        borderColor: 'transparent',
+                                                    },
+                                                },
+                                                '& .MuiInputBase-input': {
+                                                    color: '#9A9796',
+                                                },
+                                            }}
                                         />
                                     </div>
                                     <div>
@@ -152,6 +212,18 @@ const FormSection = () => {
                                             required
                                             value={edad}
                                             onChange={(e) => setEdad(e.target.value)}
+                                            sx={{
+                                                borderRadius: '15px',
+                                                backgroundColor: '#F2F3F4',
+                                                '& .MuiOutlinedInput-root': {
+                                                    '& fieldset': {
+                                                        borderColor: 'transparent',
+                                                    },
+                                                },
+                                                '& .MuiInputBase-input': {
+                                                    color: '#9A9796',
+                                                },
+                                            }}
                                         />
                                     </div>
                                 </Paper>
@@ -162,7 +234,6 @@ const FormSection = () => {
                                     sx={{
                                         padding: '8px',
                                         borderRadius: '8px',
-                                        background: '#f2f2f2',
                                     }}
                                 >
                                     <label>Tu aporte</label>
@@ -173,6 +244,18 @@ const FormSection = () => {
                                         required
                                         value={tuAporte}
                                         onChange={(e) => setTuAporte(e.target.value)}
+                                        sx={{
+                                            borderRadius: '15px',
+                                            backgroundColor: '#F2F3F4',
+                                            '& .MuiOutlinedInput-root': {
+                                                '& fieldset': {
+                                                    borderColor: 'transparent',
+                                                },
+                                            },
+                                            '& .MuiInputBase-input': {
+                                                color: '#9A9796',
+                                            },
+                                        }}
                                     />
                                 </Paper>
                             </Grid>
@@ -182,7 +265,6 @@ const FormSection = () => {
                                     sx={{
                                         padding: '8px',
                                         borderRadius: '8px',
-                                        background: '#f2f2f2',
                                     }}
                                 >
                                     <FormGroup>
@@ -199,14 +281,14 @@ const FormSection = () => {
                                     </FormGroup>
                                 </Paper>
                             </Grid>
-                            <Grid item xs={12}>
-                                <button  type='submit' disabled={!isFormValid()} className="secondary-button">Enviar</button>
+                            <Grid item xs={12} sx={{ display: 'flex', justifyContent: 'center' }}>
+                                <button type='submit' disabled={!isFormValid()} className="secondary-button">Enviar</button>
                             </Grid>
                         </Grid>
                     </form>
                 </Container>
             </div>
-            <Footer/>                                
+            <Footer />
         </div>
     );
 };
