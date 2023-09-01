@@ -31,15 +31,26 @@ const Navbar = () => {
       url: "/perfil"
     },
     {
-      text: "Plan de gobierno",
+      text: "Programa de gobierno",
+      icon: <CommentRoundedIcon />,
+      url: "/perfil"
+    },
+    {
+      text: "Equipo",
+      icon: <CommentRoundedIcon />,
+      url: "/perfil"
+    },
+    {
+      text: "Noticias",
       icon: <CommentRoundedIcon />,
       url: "/perfil"
     },
     {
       text: "Tu aporte",
       icon: <PhoneRoundedIcon />,
-      url: "/perfil"
+      url: "/aporte"
     }
+    
   ];
   return (
     <nav>
@@ -49,7 +60,9 @@ const Navbar = () => {
       <div className="navbar-links-container">
         <a href="/">Inicio</a>
         <a href="/perfil">Perfil del candidato</a>
-        <a href="">Plan de Gobierno</a>
+        <a href="">Programa de Gobierno</a>
+        <a href="">Equipo</a>
+        <a href="">Noticias</a>
         <a href="/aporte">
           <button className="primary-button">Tu aporte</button>
         </a>

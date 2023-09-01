@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 0 20rem;
+    margin: 0 10%;
     margin-top: 10rem;
     padding: 6rem 4rem;
     background-color: rgb(255, 255, 255);
@@ -12,6 +12,16 @@
     margin-bottom: 6rem;
 }
 
-.formSection-container_form h1,p {
+.formSection-container_form h1,
+p {
     text-align: center;
+}
+
+
+@media (max-width: 1000px) {
+    .formSection-container_form{
+        margin: 0;
+        margin-top: 10rem;
+        padding: 1rem 1rem;
+    }
 }

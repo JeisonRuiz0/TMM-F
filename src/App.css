@@ -139,6 +139,7 @@ nav {
     max-width: 1200px;
   }
 }
+
 @media (max-width: 800px) {
   .nav-logo-container {
     max-width: 140px;
