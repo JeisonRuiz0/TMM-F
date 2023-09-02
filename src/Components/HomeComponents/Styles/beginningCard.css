@@ -1,0 +1,13 @@
+.BeginninCardContainer{
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+}
+
+.BeginninCardContainer-icon img{
+    max-width: 40px;
+}
+
+.BeginninCardContainer-text{
+    font-family: 'Cotton Butter', sans-serif;
+}
