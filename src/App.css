@@ -36,7 +36,7 @@ nav {
   display: none;
 }
 .navbar-links-container a {
-  margin-right: 3rem;
+  margin-right: 2rem;
   text-decoration: none;
   color: black;
   font-size: 1.1rem;
@@ -74,7 +74,7 @@ nav {
 }
 .primary-text {
   font-size: clamp(1rem, 3vw, 1.5rem);
-  max-width: 500px;
+  max-width: 600px;
   color: #6a6a6a;
   margin: 1.5rem 0rem;
 }
@@ -155,7 +155,7 @@ nav {
   }
   .home-banner-container,
   .about-section-container {
-    flex-direction: column-reverse;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
   }
@@ -176,23 +176,13 @@ nav {
     max-width: 80%;
   }
   .home-text-section,
-  .about-section-text-container {
-    justify-content: center;
-    align-items: center;
-    margin-top: 4rem;
-  }
+
   .secondary-button {
     font-size: 1rem;
     padding: 0.8rem 2rem;
     cursor: pointer;
   }
-  .about-section-container {
-    margin-top: 5rem !important;
-  }
-  .about-buttons-container {
-    justify-content: center;
-    flex-direction: column;
-  }
+  
   .primary-subheading {
     text-align: center;
   }
@@ -204,9 +194,7 @@ nav {
   .watch-video-button svg {
     margin-right: 0.5rem !important;
   }
-  .about-section-image-container {
-    margin-right: 0rem !important;
-  }
+ 
   .work-section-wrapper {
     margin-top: 5rem !important;
   }

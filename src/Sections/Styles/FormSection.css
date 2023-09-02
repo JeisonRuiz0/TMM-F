@@ -19,9 +19,22 @@ p {
 
 
 @media (max-width: 1000px) {
-    .formSection-container_form{
+    .formSection-container_form {
         margin: 0;
-        margin-top: 10rem;
+        margin-top: 3rem;
         padding: 1rem 1rem;
+    }
+
+    .formSection-container_form h1 {
+        font-size: 1.5rem;
+    }
+    .formSection-container_form p {
+        font-size: 0.8rem;
+    }
+    .formSection-container_form label  {
+        font-size: 1.5rem;
+    }
+    .formSection-container_form label input {
+        font-size: 1.5rem;
     }
 }

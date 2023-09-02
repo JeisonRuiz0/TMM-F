@@ -6,16 +6,16 @@
   .home-bannerImage-container {
     position: absolute;
     top: -100px;
-    right: -170px;
+    right: -150px;
     z-index: -2;
-    max-width: 500px;
+    max-width: 800px;
   }
   .home-image-section {
     position: absolute;
     max-width: 1200px;
     z-index: -2;
     flex: 1;
-    right: -170px;
+    right: 200px;
     top: 200px;
   }
   .home-text-section {

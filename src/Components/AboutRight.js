@@ -11,12 +11,9 @@ const AboutRight = () => {
   return (
     <div className="aboutRight-container">
       <div className="aboutRight-banner-container">
-        <div className="aboutRight-bannerImage-container">
-          <img src={BannerBackground} alt="" />
-        </div>
         <div className="aboutRight-text-section">
           <h1 className="primary-heading">
-              Seguridad
+              Tarjeton
           </h1>
           <p className="primary-text">
             Ganar será posible a partir de un liderazgo comprometido con el manejo eficiente de los recursos públicos, 

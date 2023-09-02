@@ -1,24 +1,24 @@
 import React from "react";
-import BannerBackground from "../Assets/home-banner-background.png";
 import BannerImage from "../Assets/home-banner-image.png";
-import Navbar from "./Navbar";
+import BannerHome from "../Assets/BannerHome1.png";
+import Logo from "../Assets/LogoV.png";
 import { FiArrowRight } from "react-icons/fi";
 import './Styles/Home.css';
+import YouTube from 'react-youtube';
 
 const Home = () => {
+
   return (
     <div className="home-container">
       <div className="home-banner-container">
         <div className="home-bannerImage-container">
-          <img src={BannerBackground} alt="" />
+          <img src={BannerHome} alt="" />
         </div>
         <div className="home-text-section">
-          <h1 className="primary-heading">
-            <font size="6" color="#111111">con</font>  <font color='#35306A'  face= "sans-serif">Cesar Lopez </font> Tunja Gana 
-          </h1>
+           <img src={Logo} alt="" />
+          
           <p className="primary-text">
-            Ganar será posible a partir de un liderazgo comprometido con el manejo eficiente de los recursos públicos, 
-            cero tolerancia a la corrupción, el fortalecimiento de las instituciones públicas orientadas al servicio al ciudadano, la incorporación y aprovechamiento de las TIC, la participación ciudadana y el control social.
+            Quieres conocer al <b> UNICO </b> candidato independiente para la alcaldia de Tunja? 
           </p>
           <button className="secondary-button">
             Saber mas <FiArrowRight />{" "}
@@ -26,7 +26,10 @@ const Home = () => {
           
         </div>
         <div className="home-image-section">
-          <img src={BannerImage} alt="" />
+          <div className="home-image-section_video">
+            <YouTube videoId="nLQ-9vfEjUI&ab_channel=CodeWithYd" />
+          </div>
+          
         </div>
       </div>
     </div>

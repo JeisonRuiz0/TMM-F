@@ -69,7 +69,7 @@ const FormSection = () => {
                                 <Paper
                                     elevation={0}
                                     sx={{
-                                        padding: '8px',
+                                        padding: '4px',
                                     }}
                                 >
                                     <label>Nombre</label>
@@ -98,7 +98,7 @@ const FormSection = () => {
                                     elevation={0}
                                     sx={{
                                         display: 'flex',
-                                        padding: '8px',
+                                        padding: '4px',
                                         borderRadius: '8px',
                                     }}
                                 >
@@ -150,7 +150,7 @@ const FormSection = () => {
                                 <Paper
                                     elevation={0}
                                     sx={{
-                                        padding: '8px',
+                                        padding: '4px',
                                         borderRadius: '8px',
                                     }}
                                 >
@@ -180,7 +180,7 @@ const FormSection = () => {
                                     elevation={0}
                                     sx={{
                                         display: 'flex',
-                                        padding: '8px',
+                                        padding: '4px',
                                         borderRadius: '8px',
                                     }}
                                 >
@@ -206,7 +206,7 @@ const FormSection = () => {
                                         />
                                     </div>
                                     <div>
-                                        <label>Edad</label>
+                                        <label>Fecha de nacimiento</label>
                                         <TextField
                                             fullWidth
                                             required
@@ -232,7 +232,7 @@ const FormSection = () => {
                                 <Paper
                                     elevation={0}
                                     sx={{
-                                        padding: '8px',
+                                        padding: '4px',
                                         borderRadius: '8px',
                                     }}
                                 >
@@ -263,7 +263,7 @@ const FormSection = () => {
                                 <Paper
                                     elevation={0}
                                     sx={{
-                                        padding: '8px',
+                                        padding: '4px',
                                         borderRadius: '8px',
                                     }}
                                 >

@@ -13,9 +13,9 @@ const HomeSection = () => {
         <div>
             <Navbar />
             <Home />
+            <AboutRight />
             <About />
             <Work />
-            <AboutRight />
             <Footer />
            
         </div>
