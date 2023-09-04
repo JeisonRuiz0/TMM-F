@@ -27,6 +27,24 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-width: 1000px;
+}
+
+.aboutRight-text-section h1{
+    margin-bottom: 2rem;
+    text-align: justify;
+    font-size: 9rem;
+}
+
+.aboutRight-text-section p{
+  margin-bottom: 2rem;
+  text-align: justify;
+
+}
+
+.aboutRight-text-section button{
+  margin-top: 2rem;
+
 }
 
 @media (max-width: 1400px) {

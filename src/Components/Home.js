@@ -27,7 +27,7 @@ const Home = () => {
         </div>
         <div className="home-image-section">
           <div className="home-image-section_video">
-            <YouTube videoId="nLQ-9vfEjUI&ab_channel=CodeWithYd" />
+            <YouTube videoId="oJM7v0Jpn3E&ab" />
           </div>
           
         </div>
