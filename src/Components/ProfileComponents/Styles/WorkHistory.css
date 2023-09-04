@@ -1,0 +1,19 @@
+.workHistory-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5rem;
+    position: relative;
+    justify-content: right;
+    
+}
+
+
+
+.timeline-workHistory{
+    width: 50vw;
+    display: flex;
+    justify-content: left;
+    flex-direction: column; /* Cambia la dirección de flexión a columna */
+    align-items: flex-start; /* Alinea los elementos a la izquierda */
+    padding: 0;
+}

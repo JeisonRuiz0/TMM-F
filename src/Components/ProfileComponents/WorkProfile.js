@@ -4,6 +4,7 @@ import ChooseMeals from "../../Assets/choose-image.png";
 import DeliveryMeals from "../../Assets/delivery-image.png";
 import SaludImage from "../../Assets/salud.png";
 import './Styles/WorkProfile.css';
+import WorkHistory from "./WorkHistory";
 
 const workProfile = () => {
   const workProfileInfoData = [
@@ -32,16 +33,7 @@ const workProfile = () => {
         He construido paso a paso una carrera con consolidando excelentes relaciones interpersonales en el sector público, en el sector privado y en instancias territoriales y nacionales, destacando mi experiencia en 
         </p>
       </div>
-      <div className="workProfile-section-bottom">
-        {workProfileInfoData.map((data) => (
-          <div className="workProfile-section-info" key={data.title}>
-            <div className="info-boxes-img-container">
-            </div>
-            <h2>{data.title}</h2>
-            <p>{data.text}</p>
-          </div>
-        ))}
-      </div>
+      <WorkHistory />
     </div>
   );
 };
