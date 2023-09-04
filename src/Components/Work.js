@@ -3,6 +3,7 @@ import PickMeals from "../Assets/pick-meals-image.png";
 import ChooseMeals from "../Assets/choose-image.png";
 import DeliveryMeals from "../Assets/delivery-image.png";
 import SaludImage from "../Assets/salud.png";
+import GovernancePrinciples from './HomeComponents/GovernancePrinciples';
 import './Styles/Work.css';
 
 const Work = () => {
@@ -46,6 +47,9 @@ const Work = () => {
             <p>{data.text}</p>
           </div>
         ))}
+      </div>
+      <div className="work-section-items">
+        <GovernancePrinciples />
       </div>
     </div>
   );

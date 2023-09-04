@@ -1,6 +1,5 @@
 import React from "react";
-import './Styles/BeginninCard.css';
-
+import './Styles/BeginningCard.css';
 
 
 const BeginninCard = ({iconUrl, text}) => {

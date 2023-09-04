@@ -1,0 +1,25 @@
+.GovernancePrinciples-items{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.GovernancePrinciples-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.GovernancePrinciples-text p{
+    max-width: 800px;
+}
+
+.GovernancePrinciples-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

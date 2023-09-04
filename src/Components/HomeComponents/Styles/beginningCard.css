@@ -1,13 +1,17 @@
 .BeginninCardContainer{
     display: flex;
     flex-direction: row;
+    align-items: center;
     margin: 1rem;
+    max-width: 300px;
 }
 
 .BeginninCardContainer-icon img{
-    max-width: 40px;
+    max-width: 50px;
 }
 
-.BeginninCardContainer-text{
+.BeginninCardContainer-text p   {
     font-family: 'Cotton Butter', sans-serif;
+    font-size: 2rem;
+    line-height: 1;
 }
