@@ -21,7 +21,7 @@ const AboutRight = () => {
           </p>
          
           <button className="secondary-button">
-            Saber mas <FiArrowRight />{" "}
+            Como votar
           </button>
           
 

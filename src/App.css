@@ -25,6 +25,9 @@ body {
 body {
   background-color: #f6f6f6;
 }
+.nav-logo-container {
+  max-width: 200px;
+}
 
 nav {
   display: flex;
@@ -127,7 +130,7 @@ nav {
   margin-right: 1rem;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1400px) {
   .navbar-links-container a {
     margin-right: 1rem;
     font-size: 1rem;

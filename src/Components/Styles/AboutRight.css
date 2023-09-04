@@ -1,6 +1,5 @@
-
 .aboutRight-container {
-  margin-bottom: 20rem;
+  margin-bottom: 5rem;
 }
 
 .aboutRight-banner-container {
@@ -18,7 +17,7 @@
   position: relative;
   max-width: 500px;
   flex: 1;
-  margin-right: 10rem;
+  margin-right: 3rem;
   top: 20px;
 }
 
@@ -28,4 +27,22 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+@media (max-width: 1400px) {
+
+  .aboutRight-image-section {
+    position: relative;
+    max-width: 400px;
+    margin-left: 1rem;
+    
+  }
+  
+  .aboutRight-text-section p, h1{
+    margin: 2rem 0;
+  }
+
+  .aboutRight-text-section{
+    margin-right: 1rem;
+  }
 }
