@@ -1,3 +1,18 @@
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
+.home-image-section,
+.home-text-section {
+  animation: fadeIn 2s ease-in-out forwards; /* Aplicar la animación de aparición suave a estos elementos */
+}
+
 .home-banner-container {
     position: relative;
     display: flex;

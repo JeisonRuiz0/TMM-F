@@ -3,6 +3,7 @@ import BannerBackground from "../Assets/home-banner-background.png";
 import BannerImage from "../Assets/stadistic.png";
 import { FiArrowRight } from "react-icons/fi";
 import './Styles/AboutRight.css'; 
+import backgroundImage from '.././Assets/BannerTarjeton.png';
 
 
 
@@ -10,6 +11,9 @@ import './Styles/AboutRight.css';
 const AboutRight = () => {
   return (
     <div className="aboutRight-container">
+      <div className="aboutRight-container__background" >
+        <img src= {backgroundImage} alt="" />
+      </div>
       <div className="aboutRight-banner-container">
         <div className="aboutRight-text-section">
           <h1 className="primary-heading">

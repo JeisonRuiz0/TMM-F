@@ -1,7 +1,7 @@
 import React from "react";
-import ProfilePic from "../../Assets/john-doe-image.png";
-import { AiFillStar } from "react-icons/ai";
+import ProfilePic from "../../Assets/john-doe-image.jpg";
 import './Styles/TestimonialProfile.css';
+import peopleIMG from '../../Assets/people.png';
 
 const testimonialProfile = () => {
   return (
@@ -11,7 +11,7 @@ const testimonialProfile = () => {
         <p className="primary-text">
           Mi aspiración a la Alcaldía de Tunja ha sido avalada por el deseo y el compromiso de miles de ciudadanos que buscan una representación genuina y sin intermediarios. A esas 58.174 personas que confiaron en mí, les reitero mi compromiso de llegar hasta el final de las elecciones de manera independiente, siendo coherente con el respaldo adquirido con la gente y la confianza que en mí depositaron.
         </p>
-        <img src="https://www.demotos.com.co/wp-content/uploads/2022/04/CFMoto-450SR-port.jpg" alt="" />
+        <img src={peopleIMG} alt="" />
 
       </div>
 

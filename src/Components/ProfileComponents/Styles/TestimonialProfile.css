@@ -24,3 +24,21 @@
   .testimonialProfile-section-bottom h2 {
     margin-top: 1.5rem;
   }
+
+  .testimonialProfile-section-bottom img {
+    border-radius: 100px;
+  }
+
+  .work-section-top h1{
+    max-width: 800px;
+    min-width: 1000px;
+  }
+
+  .work-section-top img{
+    margin: 2rem 2rem;
+  }
+
+  .work-section-top p{
+    max-width: 800px;
+    min-width: 1000px;
+  }    

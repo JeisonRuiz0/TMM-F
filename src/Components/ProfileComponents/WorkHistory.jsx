@@ -1,6 +1,7 @@
 import React from "react";
 import { Timeline, TimelineSeparator, TimelineDot, TimelineConnector, TimelineContent, TimelineItem } from "@mui/lab";
 import "./Styles/WorkHistory.css";
+import diputado from '../../Assets/diputado.jpg';
 
 const WorkHistory = () => {
   return (
@@ -48,7 +49,7 @@ const WorkHistory = () => {
         </div>
       </div>
       <div className="workHistory-container__image">
-            <img src="https://cfmotocolombia.com/wp-content/uploads/2023/04/0000_MY2023_450SR_Nebula-Black_Right.jpg" alt="" />
+            <img src={diputado} alt="" />
         </div>
     </div>
   )

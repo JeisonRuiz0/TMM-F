@@ -4,6 +4,8 @@ import BannerProfile from "../../Assets/BannerProfile.png";
 import AboutBackgroundImage from "../../Assets/about-background-image.png";
 import { BsFillPlayCircleFill } from "react-icons/bs";
 import './Styles/About.css';
+import Logo from "../../Assets/LogoC.png";
+
 
 const AboutProfile = () => {
   return (
@@ -17,7 +19,7 @@ const AboutProfile = () => {
      
       <div className="aboutProfile-section-text-container profile">
         <h1 className="primary-heading">
-          con Cesar Lopez Tunja Gana
+          <img  src={Logo}/>
         </h1>
         <p className="primary-text">
             Soy Cesar Augusto Lopez Morales, un hijo de Boyaca, nacido en la ciudad de Chiquinquira, forjado con esfuerzo, trabajo duro y compromiso.

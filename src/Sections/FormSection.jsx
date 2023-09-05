@@ -3,7 +3,6 @@ import {
     TextField,
     Checkbox,
     FormControlLabel,
-    Button,
     FormGroup,
     Container,
     Grid,
@@ -13,7 +12,6 @@ import Navbar from '../Components/Navbar';
 import "./Styles/FormSection.css";
 import Footer from '../Components/Footer';
 import BannerProfile from "../Assets/BannerProfile.png";
-import { BorderColor } from '@mui/icons-material';
 
 const FormSection = () => {
     const [nombre, setNombre] = useState('');
