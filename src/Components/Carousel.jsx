@@ -1,41 +1,96 @@
 import React from "react";
 
 import './Styles/Carousel.css';
+import c1 from '.././Assets/sepatara/c1.jpg';
+import c2 from '.././Assets/sepatara/c2.jpg';
+import c3 from '.././Assets/sepatara/c3.jpg';
+import c4 from '.././Assets/sepatara/c4.jpg';
+import c5 from '.././Assets/sepatara/c5.png';
+import c6 from '.././Assets/sepatara/c6.jpg';
+import c7 from '.././Assets/sepatara/c7.jpg';
+import c8 from '.././Assets/sepatara/c8.jpg';
+import c9 from '.././Assets/sepatara/c9.jpg';
+import d1 from '.././Assets/sepatara/c1.jpg';
+import d2 from '.././Assets/sepatara/c2.jpg';
+import d3 from '.././Assets/sepatara/c3.jpg';
+import d4 from '.././Assets/sepatara/c4.jpg';
+import d5 from '.././Assets/sepatara/c5.png';
+import d6 from '.././Assets/sepatara/c6.jpg';
+import d7 from '.././Assets/sepatara/c7.jpg';
 
 
-const Carousel = () =>{
 
-    return(
-        <section class="carousel">
-			<section class="carousel__container">
-				<div class="carousel-item">
-					<img class="carousel-item__img" src="https://images.pexels.com/photos/5994821/pexels-photo-5994821.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="People"/>
-					<div class="carousel-item__details">
-					
-						<p class="carousel_item__details--tittle">Titulo decriptivo</p>
-						<p class="carousel_item__details--subtittle">2019 16+  114 minutos</p>
+
+const Carousel = () => {
+	const carouselData = [
+		{
+			title: "Terminación y entrega del Coliseo San Antonio",
+			subtitle: "",
+			imageSrc:  c1 ,
+		},
+		{
+			title: "Pavimentación del Centro Histórico",
+			subtitle: "",
+			imageSrc:  c2 ,
+		},
+		{
+			title: "Se inicio al proyecto de la nueva Terminal de Transporte para Tunja",
+			subtitle: "",
+			imageSrc:  c3 ,
+		},
+		{
+			title: "Se apoyo la gestión para la construcción de Unicentro Tunja",
+			subtitle: "",
+			imageSrc:  c4 ,
+		},
+		{
+			title: "Terminación y entrega del Coliseo San Antonio",
+			subtitle: "",
+			imageSrc: c5 ,
+		},
+		{
+			title: "Terminación y entrega del Coliseo San Antonio",
+			subtitle: "",
+			imageSrc: c6 ,
+		},
+		{
+			title: "Terminación y entrega del Coliseo San Antonio",
+			subtitle: "",
+			imageSrc:  c7 ,
+		},
+		{
+			title: "Terminación y entrega del Coliseo San Antonio",
+			subtitle: "",
+			imageSrc: c8 ,
+		},
+		{
+			title: "Terminación y entrega del Coliseo San Antonio",
+			subtitle: "",
+			imageSrc: c9 ,
+		},
+
+	];
+
+	return (
+		<section className="carousel">
+			<h1 className="primary-heading">Como Concejal Cesar López aprobó grandes proyectos para Tunja</h1>
+			<section className="carousel__container">
+				{carouselData.map((item, index) => (
+					<div className="carousel-item" key={index}>
+						<img
+							className="carousel-item__img"
+							src={item.imageSrc}
+							alt={item.title}
+						/>
+						<div className="carousel-item__details">
+							<p className="carousel_item__details--title">{item.title}</p>
+							<p className="carousel_item__details--subtittle">{item.subtitle}</p>
+						</div>
 					</div>
-				</div>
-				<div class="carousel-item">
-					<img class="carousel-item__img" src="https://images.pexels.com/photos/5994821/pexels-photo-5994821.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="People"/>
-					<div class="carousel-item__details">
-						
-						<p class="carousel_item__details--tittle">Titulo decriptivo</p>
-						<p class="carousel_item__details--subtittle">2019 16+  114 minutos</p>
-					</div>
-				</div>
-				<div class="carousel-item">
-					<img class="carousel-item__img" src="https://images.pexels.com/photos/5994821/pexels-photo-5994821.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="People"/>
-					<div class="carousel-item__details">
-						
-						<p class="carousel_item__details--tittle">Titulo decriptivo</p>
-						<p class="carousel_item__details--subtittle">2019 16+  114 minutos</p>
-					</div>
-				</div>
-				
+				))}
 			</section>
 		</section>
-    )
+	)
 }
 
 

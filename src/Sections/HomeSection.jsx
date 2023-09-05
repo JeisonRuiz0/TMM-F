@@ -17,6 +17,7 @@ const HomeSection = () => {
             <About />
             <Work />
             <Carousel />
+   
             <Footer />
            
         </div>

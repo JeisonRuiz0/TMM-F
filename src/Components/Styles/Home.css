@@ -28,7 +28,11 @@
   }
   .home-image-section {
     position: relative;
+    border-radius: 20px;
+    border-color: blue;
+
     top: 4rem;
+    right: 8rem;
   }
   .home-text-section {
     flex: 1;

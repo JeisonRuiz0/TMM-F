@@ -6,6 +6,15 @@ import './Styles/Home.css';
 import YouTube from 'react-youtube';
 
 const Home = () => {
+  const videoId = "ZLzS7JrjCqk"; 
+
+  const opts = {
+    height: '480',
+    width: '800',
+    playerVars: {
+      autoplay: 1, 
+    },
+  };
 
   return (
     <div className="home-container">
@@ -14,21 +23,18 @@ const Home = () => {
           <img src={BannerHome} alt="" />
         </div>
         <div className="home-text-section">
-           <img src={Logo} alt="" />
-          
+          <img src={Logo} alt="" />
           <p className="primary-text">
-            Quieres conocer al <b> UNICO </b> candidato independiente para la alcaldia de Tunja? 
+            Quieres conocer al <b>ÚNICO</b> candidato independiente para la alcaldía de Tunja?
           </p>
           <button className="secondary-button">
-            Saber mas <FiArrowRight />{" "}
+            Saber más <FiArrowRight />
           </button>
-          
         </div>
         <div className="home-image-section">
-          <div className="home-image-section_video">
-            <YouTube videoId="oJM7v0Jpn3E&ab" />
+          <div className="home-image-section_video"  style={{ borderRadius: '20px' }}>
+            <YouTube videoId={videoId} opts={opts} />
           </div>
-          
         </div>
       </div>
     </div>
