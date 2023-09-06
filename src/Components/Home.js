@@ -9,7 +9,7 @@ const Home = () => {
   const videoId = "ZLzS7JrjCqk"; 
 
   const opts = {
-    height: '330px',
+    height: '460px',
     width: '100%',
     playerVars: {
       autoplay: 1, 
