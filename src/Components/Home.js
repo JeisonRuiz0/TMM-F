@@ -9,8 +9,8 @@ const Home = () => {
   const videoId = "ZLzS7JrjCqk"; 
 
   const opts = {
-    height: '460px',
     width: '100%',
+    height: '460rem',
     playerVars: {
       autoplay: 1, 
     },
@@ -32,7 +32,7 @@ const Home = () => {
           </button>
         </div>
         <div className="home-image-section">
-            <YouTube videoId={videoId} opts={opts} />
+            <YouTube className="" videoId={videoId} opts={opts} />
         </div>
       </div>
     </div>
