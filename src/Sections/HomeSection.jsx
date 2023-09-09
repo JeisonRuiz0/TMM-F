@@ -7,7 +7,6 @@ import Footer from "../Components/Footer";
 import Navbar from "../Components/Navbar";
 import AboutRight from "../Components/AboutRight";
 import Carousel from "../Components/Carousel";
-import StrategicAxisComponent from "../Components/StrategicAxesComponent";
 
 const HomeSection = () => {
     return (
@@ -17,8 +16,8 @@ const HomeSection = () => {
             <AboutRight />
             <About />
             <Work />
-            <StrategicAxisComponent />
             <Carousel />
+   
             <Footer />
            
         </div>

@@ -24,7 +24,7 @@
 
 .aboutRight-image-section {
   position: relative;
-  max-width: 700px;
+  max-width: 500px;
   flex: 1;
   margin-right: 3rem;
   top: 20px;
@@ -47,8 +47,7 @@
 
 .aboutRight-text-section p{
   margin-bottom: 2rem;
-  text-align: left;
-  max-width: 700px;
+  text-align: justify;
 
 }
 
@@ -61,7 +60,7 @@
 
   .aboutRight-image-section {
     position: relative;
-    max-width: 600px;
+    max-width: 400px;
     margin-left: 1rem;
     
   }

@@ -16,23 +16,11 @@
     max-width: 700px;
 
   }
-
-  .about-section-image-container img{
-    border-radius: 30px;
-    border-color: blueviolet;
-    -webkit-box-shadow: 10px 7px 9px 0px rgba(163,163,163,1);
-    -moz-box-shadow: 10px 7px 9px 0px rgba(163,163,163,1);
-    box-shadow: 10px 7px 9px 0px rgba(163,163,163,1);
-  }
   .about-section-text-container {
     width: 50%;
     padding: 0;
     margin:0 ;
     max-width: 800px;
-  }
-
-  .about-section-text-container h1{
-    line-height: 1;
   }
   .about-buttons-container {
     margin-top: 2rem;
