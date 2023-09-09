@@ -23,17 +23,17 @@ const Navbar = () => {
     {
       text: "Inicio",
       icon: <HomeIcon />,
-      url: "/perfil"
+      url: "/TMM-F//perfil"
     },
     {
       text: "Perfil del candidato",
       icon: <InfoIcon />,
-      url: "/perfil"
+      url: "/TMM-F/perfil"
     },
     {
       text: "Programa de gobierno",
       icon: <CommentRoundedIcon />,
-      url: "/perfil"
+      url: "/TMM-F/perfil"
     },
     {
       text: "Equipo",
@@ -58,12 +58,12 @@ const Navbar = () => {
         <img src={Logo} alt="" />
       </div>
       <div className="navbar-links-container">
-        <a href="/">Inicio</a>
-        <a href="/perfil">Perfil del candidato</a>
+        <a href="//TMM-F">Inicio</a>
+        <a href="/TMM-F/perfil">Perfil del candidato</a>
         <a href="">Programa de Gobierno</a>
         <a href="">Equipo</a>
         <a href="">Noticias</a>
-        <a href="/aporte">
+        <a href="/TMM-F/aporte">
           <button className="primary-button">Tu aporte</button>
         </a>
         
