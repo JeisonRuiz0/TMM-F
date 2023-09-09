@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element= {<HomeSection/>}></Route>
+          <Route path="/TMM-F" element= {<HomeSection/>}></Route>
           <Route path="/perfil" element={<CandidateProfile/>}></Route>
           <Route path="/aporte" element={<FormSection/>}></Route>
         </Routes>
