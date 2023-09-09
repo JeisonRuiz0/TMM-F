@@ -58,12 +58,12 @@ const Navbar = () => {
         <img src={Logo} alt="" />
       </div>
       <div className="navbar-links-container">
-        <a href="//TMM-F">Inicio</a>
-        <a href="/TMM-F/perfil">Perfil del candidato</a>
+        <a href="/TMM-F">Inicio</a>
+        <a href="/perfil">Perfil del candidato</a>
         <a href="">Programa de Gobierno</a>
         <a href="">Equipo</a>
         <a href="">Noticias</a>
-        <a href="/TMM-F/aporte">
+        <a href="/aporte">
           <button className="primary-button">Tu aporte</button>
         </a>
         
