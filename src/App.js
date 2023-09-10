@@ -10,9 +10,8 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/TMM-F" element= {<HomeSection/>}></Route>
-          <Route path="/perfil" element={<CandidateProfile/>}></Route>
-          <Route path="/aporte" element={<FormSection/>}></Route>
-          <Route default="/TMM-F" />
+          <Route path="/TMM-F/perfil" element={<CandidateProfile/>}></Route>
+          <Route path="/TMM-F/aporte" element={<FormSection/>}></Route>
         </Routes>
       </BrowserRouter>
     </div>
