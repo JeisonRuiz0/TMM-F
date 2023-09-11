@@ -6,13 +6,13 @@ import './Styles/Home.css';
 import YouTube from 'react-youtube';
 
 const Home = () => {
-  const videoId = "ZLzS7JrjCqk"; 
+  const videoId = "ZLzS7JrjCqk";
 
   const opts = {
     width: '100%',
     height: '460rem',
     playerVars: {
-      autoplay: 1, 
+      autoplay: 1,
     },
   };
 
@@ -24,15 +24,17 @@ const Home = () => {
         </div>
         <div className="home-text-section">
           <img src={Logo} alt="" />
-          <p className="primary-text">
-            Quieres conocer al <b>ÚNICO</b> candidato independiente para la alcaldía de Tunja?
-          </p>
-          <button className="secondary-button">
-            Saber más <FiArrowRight />
-          </button>
+          <div className="home-text-section__info">
+            <p className="primary-text">
+              Quieres conocer al <b>ÚNICO</b> candidato independiente para la alcaldía de Tunja?
+            </p>
+            <button className="secondary-button">
+              Saber más <FiArrowRight />
+            </button>
+          </div>
         </div>
         <div className="home-image-section">
-            <YouTube className="" videoId={videoId} opts={opts} />
+          <YouTube className="" videoId={videoId} opts={opts} />
         </div>
       </div>
     </div>
