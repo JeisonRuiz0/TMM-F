@@ -8,7 +8,9 @@ const About = () => {
   return (
     <div className="about-section-container">
       
-      
+      <div className="about-section-image-container">
+        <img src={AboutBackgroundImage} alt="" />
+      </div>
       <div className="about-section-text-container">
         <h1 className="primary-heading">
           ¡Como llegar a nuestra sede!
@@ -24,9 +26,7 @@ const About = () => {
           </button>
         </div>
       </div>
-      <div className="about-section-image-container">
-        <img src={AboutBackgroundImage} alt="" />
-      </div>
+    
       <div className="about-background-image-container">
         <img src={AboutBackground} alt="" />
       </div>

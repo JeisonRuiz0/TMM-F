@@ -17,8 +17,12 @@ const GovernancePrinciples = () => {
     return(
         <div className="GovernancePrinciplesContainer">
             <div className="GovernancePrinciples-text">
-                <h1 className="primary-heading">Principios de gobierno</h1>
-                <p className="primary-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet ipsum culpa tempore officia facere, cum aliquam suscipit maiores cumque modi ullam provident vitae quos! Voluptatibus esse non eius ipsam culpa!</p>
+                <h1 className="primary-heading">Principios de Gobierno</h1>
+                <p className="primary-text"> Este programa y todas las acciones de gobierno buscarán la transformación de la ciudad, pensando en que todas las personas tengan las mejores condiciones de vida, para lograrlo, generaremos empresa, crecimiento y
+                    desarrollo sostenible, mitigaremos la pobreza, protegeremos el medio
+                    ambiente, disminuiremos la desigualdad, conseguiremos la paz y la seguridad ciudadana siendo incluyentes, erradicaremos las violencias, tendremos una educación pública de mejor calidad y una actividad recreativa, deportiva, artística y cultural más incluyente.
+                    Para lograro hemos adoptado los siguentes Principios:
+                </p>
             </div>
             <div className="GovernancePrinciples-items">
                 <BeginninCard iconUrl={item1} text={"Dialogo de Cercania"} />
