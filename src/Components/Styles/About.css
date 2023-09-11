@@ -29,3 +29,44 @@
     align-items: center;
     justify-content: center;
   }
+
+  @media (max-width: 1000px){
+    .about-section-container {
+      margin-top: 5rem;
+      position: relative;
+      display: flex;
+      align-items: center;
+    }
+    .about-background-image-container {
+      position: absolute;
+      left: -150px;
+      width: 300px;
+      z-index: -2;
+    }
+    .about-section-image-container {
+      flex: 0.9;
+      margin-top: 3rem;
+      max-width: 400px;
+  
+    }
+    .about-section-text-container h1{
+      width: 100%;
+      max-width: 100%;
+    }
+
+    .about-section-text-container p{
+      width: 100%;
+      max-width: 100%;
+    }
+    .about-section-text-container {
+      width: 100%;
+      max-width: 100%;
+    }
+    .about-buttons-container {
+      margin-top: 2rem;
+      display: flex;
+      max-width: 600px;
+      align-items: center;
+      justify-content: center;
+    }
+  }

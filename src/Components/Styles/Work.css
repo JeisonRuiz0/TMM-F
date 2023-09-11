@@ -3,10 +3,10 @@
   }
   .work-section-top p {
     text-align: center;
-    max-width: 600px !important;
+    max-width: 600px ;
   }
   .work-section-top h1 {
-    max-width: 700px !important;
+    max-width: 700px ;
   }
   .work-section-top {
     display: flex;
