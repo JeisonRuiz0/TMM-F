@@ -20,9 +20,9 @@ const About = () => {
           La sede de las ideas está de puertas abiertas para todos los Tunjanos, ubicada en la Carrera 8 # 19-72 diagonal a la Pila del Mono.
         </p>
         <div className="about-buttons-container">
-          <button className="secondary-button">Saber mas</button>
+          <button className="secondary-button">Saber más</button>
           <button className="watch-video-button">
-            <BsFillPlayCircleFill /> Ver video
+    
           </button>
         </div>
       </div>

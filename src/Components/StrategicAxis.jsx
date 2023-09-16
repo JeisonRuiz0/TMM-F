@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './Styles/StrategicAxis.css';
 
 function StrategicAxis({ image, items }) {
-    const [isOpen, setIsOpen] = useState(false);
+    const [isOpen, setIsOpen] = useState(true);
 
     const toggleAccordion = () => {
         setIsOpen(!isOpen);

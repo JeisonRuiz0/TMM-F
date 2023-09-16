@@ -194,6 +194,12 @@
 		width: 100%;
 	}
 
+	.carousel h1{
+		margin: 0px;
+		font-size: 3rem;
+		max-width: 600px;
+	}
+
 	.footer {
 		align-items: flex-start;
 		flex-direction: column;

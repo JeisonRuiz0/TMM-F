@@ -8,6 +8,7 @@ import Navbar from "../Components/Navbar";
 import AboutRight from "../Components/AboutRight";
 import Carousel from "../Components/Carousel";
 import StrategicAxisComponent from "../Components/StrategicAxesComponent";
+import Resourses from "../Components/HomeComponents/Resources";
 
 const HomeSection = () => {
     return (
@@ -19,6 +20,7 @@ const HomeSection = () => {
             <Work />
             <StrategicAxisComponent />
             <Carousel />
+            <Resourses />
             <Footer />
            
         </div>

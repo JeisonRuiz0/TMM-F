@@ -33,3 +33,10 @@
     max-height: 500px; /* Altura máxima para mostrar los elementos */
     transition: max-height 0.7 ease-in-out; /* Agregar una transición para cerrar suavemente */
   }
+
+  @media (max-width: 600px){
+    .strategic-axis img{
+      max-width: 17rem;
+    }
+    
+  }

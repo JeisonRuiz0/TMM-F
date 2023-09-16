@@ -43,27 +43,27 @@ const Carousel = () => {
 			imageSrc:  c4 ,
 		},
 		{
-			title: "Terminación y entrega del Coliseo San Antonio",
+			title: "Se inicia la construcción del Viaducto de Tunja",
 			subtitle: "",
 			imageSrc: c5 ,
 		},
 		{
-			title: "Terminación y entrega del Coliseo San Antonio",
+			title: "Se ilumina la Catedral como atractivo turístico nocturno",
 			subtitle: "",
 			imageSrc: c6 ,
 		},
 		{
-			title: "Terminación y entrega del Coliseo San Antonio",
+			title: "Descontaminación de los rios La Vega y Jordán",
 			subtitle: "",
 			imageSrc:  c7 ,
 		},
 		{
-			title: "Terminación y entrega del Coliseo San Antonio",
+			title: "Formalización de alfarería y construcción de hornos tipo colmena",
 			subtitle: "",
 			imageSrc: c8 ,
 		},
 		{
-			title: "Terminación y entrega del Coliseo San Antonio",
+			title: "Se invirtio en la recuperación de Teatro Cultural",
 			subtitle: "",
 			imageSrc: c9 ,
 		},
@@ -72,7 +72,7 @@ const Carousel = () => {
 
 	return (
 		<section className="carousel">
-			<h1 className="primary-heading">Como Concejal Cesar López aprobó grandes proyectos para Tunja</h1>
+			<h1 className="primary-heading">Como Concejal César López aprobó grandes proyectos para Tunja</h1>
 			<section className="carousel__container">
 				{carouselData.map((item, index) => (
 					<div className="carousel-item" key={index}>

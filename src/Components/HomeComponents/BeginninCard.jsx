@@ -2,11 +2,13 @@ import React from "react";
 import './Styles/BeginningCard.css';
 
 
-const BeginninCard = ({iconUrl, text}) => {
+const BeginninCard = ({iconUrl, text, dataUrl}) => {
     return(
         <div className="BeginninCardContainer">
             <div className="BeginninCardContainer-icon">
-                <img src= {iconUrl} alt="" />
+                <a href={dataUrl}>
+                    <img src= {iconUrl} alt="" />
+                </a>
             </div>
             <div className="BeginninCardContainer-text">
                 <p className="primary-text">{text}</p>

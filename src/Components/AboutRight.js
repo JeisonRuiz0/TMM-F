@@ -18,7 +18,7 @@ const AboutRight = () => {
       <div className="aboutRight-banner-container">
         <div className="aboutRight-text-section">
           <h1 className="primary-heading">
-            TARJETÓN
+            Tarjetón
           </h1>
           <p className="primary-text">
             Mejorar la calidad de vida de los Tunjanos dando garantía a los derechos fundamentales, enfocado en la DEMOCRACIA DE CERCANÍA, escuchando a la comunidad para la toma de decisiones inteligentes que interpreten las necesidades y expectativas más sentidas de los Tunjanos, el objetivo es superar la pobreza extrema, la desigualdad, el inconformismo y la falta de garantías institucionales para dar solución a la creciente problemática social que agobia a la ciudad. 

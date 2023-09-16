@@ -13,8 +13,14 @@
     align-items: center;
 }
 
+.GovernancePrinciples-text h1{
+    line-height: 1;
+    margin-top: 3rem;
+
+}
 .GovernancePrinciples-text p{
     max-width: 800px;
+    text-align: justify;
 }
 
 .GovernancePrinciples-button{
@@ -23,4 +29,19 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+
+
+@media (max-width: 600px) {
+    .GovernancePrinciples-item{
+        max-width: 400px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .GovernancePrinciples-button{
+        margin-bottom: 3rem;
+    
+  }
 }

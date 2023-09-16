@@ -10,7 +10,7 @@ const Home = () => {
 
   const opts = {
     width: '100%',
-    height: '460rem',
+    height: '450px',
     playerVars: {
       autoplay: 1,
     },
